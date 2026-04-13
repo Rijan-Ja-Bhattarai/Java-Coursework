@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Subscription_GUI
+comment1.params=
+comment1.target=Subscription_GUI()
+comment10.params=e
+comment10.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment2.params=
+comment2.target=javax.swing.JTextField\ createTextField()
+comment3.params=text
+comment3.target=javax.swing.JLabel\ createLabel(java.lang.String)
+comment4.params=
+comment4.target=javax.swing.JPanel\ appPanel()
+comment5.params=e
+comment5.target=void\ focusGained(java.awt.event.FocusEvent)
+comment6.params=e
+comment6.target=void\ focusLost(java.awt.event.FocusEvent)
+comment7.params=
+comment7.target=javax.swing.JPanel\ appHeader()
+comment8.params=e
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment9.params=
+comment9.target=javax.swing.JComboBox\ planSelector()
+numComments=11

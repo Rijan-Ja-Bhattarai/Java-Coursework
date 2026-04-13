@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PersonalPlan
+comment1.params=promptsRemaining\ modelName\ price\ parameterCount\ contextWindowSize
+comment1.target=PersonalPlan(int,\ java.lang.String,\ double,\ int,\ int)
+comment2.params=
+comment2.target=int\ getPromptsRemaining()
+comment3.params=amount
+comment3.target=java.lang.String\ purchasePrompts(int)
+comment4.params=prompt\ expectedAmount
+comment4.target=java.lang.String\ usePrompt(java.lang.String,\ int)
+comment5.params=
+comment5.target=java.lang.String\ display()
+numComments=6
