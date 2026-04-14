@@ -62,4 +62,19 @@ public class UtilityFunctions {
             }
         };
     }
+
+    public static void validateInput(String input) throws Exception {
+        try {
+            int num = Integer.parseInt(input);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, e.toString(), "Error" ,JOptionPane.ERROR_MESSAGE);
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void validateInput(int idx) {
+        if (idx < 0) {
+            JOptionPane.showMessageDialog(null, "Index cant be less than 0", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
 }

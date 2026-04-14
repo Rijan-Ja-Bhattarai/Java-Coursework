@@ -26,6 +26,13 @@ public class UIComponents
         return textField;
     }
 
+    public static JTextField inputField(int cols) {
+        JTextField textField = new JTextField(cols);
+        textField.setFont(Styling.PLAIN_FONT);
+        textField.setBackground(Styling.SURFACE);
+        return textField;
+    }
+
     public static JButton createButton(String text) {
         JButton button = new JButton(text);
         button.setForeground(Styling.PRIMARY_TEXT);
